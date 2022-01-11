@@ -1,0 +1,119 @@
+body
+{
+   background-color: #bccbde;
+}
+table 
+{
+    border: 1px solid grey;
+    border-collapse: collapse;
+    width:60%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+}
+th, td
+{
+    border: 1px solid grey;
+    padding: 6px;
+    font-size: 20px;
+    background-color:lightgreen;
+
+}
+h1
+{
+    font-family: sans-serif;
+    color: darkblue;
+    margin-left: 440px;
+    text-decoration:underline;
+    padding-bottom: 5px;
+}
+th
+{
+    background-color:indigo;
+    color: wheat;
+}
+.table-sortable th {
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  
+  .table-sortable .th-sort-asc::after,
+  .table-sortable .th-sort-desc::after {
+    margin-left: 5px;
+  
+  }
+.slider
+{
+overflow:hidden;
+}
+.slider figure
+{
+position:relative;
+width:500%;
+
+margin:0;
+left:0;
+animation:18s slider infinite;
+}
+.slider figure img
+{
+    float: left;
+    width: 20%;
+    
+}
+@keyframes slider
+{
+    0%
+    {
+        left: 0;
+    }
+    20%
+    {
+        left: 0;
+
+    }
+    25%
+    {
+        left:-100%;
+    }
+    45%
+    {
+        left:-100%;
+    }
+    50%
+    {
+        left:-200%;
+
+    }
+    70%
+    {
+        left:-200%;
+    }
+    75%
+    {
+        left: -300%;
+    }
+    95%
+    {
+        left:-300%;
+    }
+    100%
+    {
+        left: -400%;
+    }
+    100%
+    {
+        left: -400%;
+    }
+
+}
+
+  @media only screen and (max-width: 300px) {
+    table {
+      width: 10%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+  
+  
